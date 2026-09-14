@@ -1,0 +1,12 @@
+{
+  "version": "1.0.0",
+  "domain": "ABBA",
+  "repository": "carbonactual/agent-skills",
+  "role": "skills_source",
+  "owner": "ABBA Master AI",
+  "provides": ["reusable skills", "skill composition", "skill metadata", "skill lifecycle"],
+  "activation": "governed_by_ABBA_registry",
+  "requirements": ["provenance", "license", "security", "compatibility", "tests", "rollback"],
+  "authority_rule": "A skill can recommend or execute only within explicitly granted authority.",
+  "free_open_rule": true
+}
